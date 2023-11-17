@@ -45,7 +45,7 @@ module.exports = defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     }
-
+// kavya
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
