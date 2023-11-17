@@ -1,0 +1,1 @@
+export const afterDisSubTotal ="//div/span[text()='Sub Total']//following-sibling::span/span[@class='rupee']";

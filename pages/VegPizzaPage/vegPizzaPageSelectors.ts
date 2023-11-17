@@ -1,0 +1,12 @@
+export const vegPizza = "//span[text()='VEG PIZZA']";
+export const noThanksButton = "button span:has-text('NO THANKS')";
+export const margheritaPizzaButton = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Margherita']/descendant::button[@data-label='addTocart']";
+export const peppyPannerPizzaButton = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Peppy Paneer']/descendant::button[@data-label='addTocart']";
+export const cheesePaneerPizzaButton ="//div[@data-label='Corn n Cheese Paratha Pizza']/descendant::span[contains(text(),'ADD TO CART')]";
+export const increaseMargheritaButton = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Margherita']/descendant::div[@data-label='quantity']/descendant::div[@data-label='increase']";
+export const increasePeppyPaneerButton = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Peppy Paneer']/descendant::div[@data-label='quantity']/descendant::div[@data-label='increase']";
+export const increaseCheesePaneerButton = "//div[@data-label='Corn n Cheese Paratha Pizza']/descendant::div[@data-label='quantity']/descendant::div[@data-label='increase']";
+export const decreaseMargheritaButton = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Margherita']/descendant::div[@data-label='decrease']";
+export const margheritaPrice ="//div[@data-label='Veg Pizza']/descendant::div[@data-label='Margherita']/child::div//following-sibling::div/span";
+export const peppyPaneerPrice = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Peppy Paneer']//child::div/child::span[@class='rupee']";
+export const cheesePaneerPrice = "//div[@data-label='Veg Pizza']/descendant::div[@data-label='Corn n Cheese Paratha Pizza']//child::div/child::span[@class='rupee']";

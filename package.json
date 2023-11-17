@@ -1,0 +1,24 @@
+{
+  "name": "demo-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "test:headless": "playwright test",
+    "test:reporter": "playwright test --headed --reporter=allure-playwright, line, ./my-awesome-reporter.js",
+    "allure-report": "npx allure generate ./allure-results && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.0",
+    "allure-playwright": "^2.9.2",
+    "jest-allure2-reporter": "^1.2.1"
+  },
+  "description": ""
+}

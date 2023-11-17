@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "target": "esnext",
+        // "jsx": "react",
+        "noEmit": true,
+        "outDir": "./build",
+        "strictNullChecks": false,
+        "strictFunctionTypes": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}
